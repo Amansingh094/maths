@@ -1,10 +1,8 @@
 import streamlit as st
 import random
 
-
 def convert_to_kg(weight_in_grams):
     return weight_in_grams / 1000.00
-
 
 # Set page config
 st.set_page_config(
@@ -62,8 +60,7 @@ with st.container():
             st.subheader("intigration")
             st.markdown("[download pdf](https://ncert.nic.in/ncerts/l/lemh201.pdf)")
             st.subheader("slop of line")
-            st.markdown(
-                "[download pdf](https://www.dunkirkcsd.org/cms/lib/NY19000564/Centricity/Domain/13/slope%20of%20a"
+            st.markdown("[download pdf](https://www.dunkirkcsd.org/cms/lib/NY19000564/Centricity/Domain/13/slope%20of%20a"
                 "%20line%20notes.pdf)")
             st.subheader("trigonometric ratios")
             st.markdown("[download pdf](https://tutorial.math.lamar.edu/pdf/trig_cheat_sheet.pdf)")
