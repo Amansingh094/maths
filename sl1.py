@@ -1,8 +1,10 @@
 import streamlit as st
 import random
 
+
 def convert_to_kg(weight_in_grams):
-    return weight_in_grams / 1000.00
+    return weight_in_grams/1000.00
+
 
 # Set page config
 st.set_page_config(
@@ -50,24 +52,23 @@ with st.container():
     st.write("----")
     st.header("Cheat Sheet")
     image_col, text_col = st.columns((1, 1))
-    with image_col:
-        with text_col:
-            st.subheader("physics cheatsheet class 11th")
-            st.markdown("[download pdf](https://www.resonance.ac.in/sc/post/attachment/(2232)-gyan-sutra-p.pdf)")
-            st.subheader("Differentiation")
-            st.markdown(
-                "[Download PDF](https://dgtstudy.com/media/media/study_material/2020-04-06/DGT_Differentiation.pdf)")
-            st.subheader("intigration")
-            st.markdown("[download pdf](https://ncert.nic.in/ncerts/l/lemh201.pdf)")
-            st.subheader("slop of line")
-            st.markdown("[download pdf](https://www.dunkirkcsd.org/cms/lib/NY19000564/Centricity/Domain/13/slope%20of%20a"
-                "%20line%20notes.pdf)")
-            st.subheader("trigonometric ratios")
-            st.markdown("[download pdf](https://tutorial.math.lamar.edu/pdf/trig_cheat_sheet.pdf)")
-            st.subheader("graph")
-            st.markdown("[download pdf](file:///C:/Users/Avinash/Downloads/functions-and-graphs.pdf)")
-            st.subheader("maxima minima value function")
-            st.markdown("[download pdf](file:///C:/Users/Avinash/Downloads/functions-and-graphs.pdf)")
+with image_col:
+
+    st.subheader("physics cheatsheet class 11th")
+st.markdown("[download pdf](https://www.resonance.ac.in/sc/post/attachment/(2232)-gyan-sutra-p.pdf)")
+st.subheader("Differentiation")
+st.markdown("[Download PDF](https://dgtstudy.com/media/media/study_material/2020-04-06/DGT_Differentiation.pdf)")
+st.subheader("intigration")
+st.markdown("[download pdf](https://ncert.nic.in/ncerts/l/lemh201.pdf)")
+st.subheader("slop of line")
+st.markdown("[download pdf](https://www.dunkirkcsd.org/cms/lib/NY19000564/Centricity/Domain/13/slope%20of%20a"
+            "%20line%20notes.pdf)")
+st.subheader("trigonometric ratios")
+st.markdown("[download pdf](https://tutorial.math.lamar.edu/pdf/trig_cheat_sheet.pdf)")
+st.subheader("graph")
+st.markdown("[download pdf](file:///C:/Users/Avinash/Downloads/functions-and-graphs.pdf)")
+st.subheader("maxima minima value function")
+st.markdown("[download pdf](file:///C:/Users/Avinash/Downloads/functions-and-graphs.pdf)")
 
 # Define a dictionary of quiz questions with their corresponding answers
 quiz_questions = {
